@@ -1,24 +1,19 @@
 # Supervised Learning
 ## Project: Finding Donors for CharityML
+### Project Overview
 
-### Install
+In this project, I apply supervised learning techniques on data collected for the U.S. Census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause. 
 
-This project requires **Python 3.x** and the following Python libraries installed:
+### Dependencies
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+This project requires **Python 3.9** and the following Python libraries installed:
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+- [NumPy](http://www.numpy.org/) (>= 1.20.3)
+- [Pandas](http://pandas.pydata.org) (>= 1.3.4)
+- [matplotlib](http://matplotlib.org/) (>= 3.4.3)
+- [scikit-learn](http://scikit-learn.org/stable/) (>= 1.0.2)
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
-
-### Code
-
-Template code is provided in the `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
+### Running Instructions
 
 In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
 
@@ -53,3 +48,7 @@ The modified census dataset consists of approximately 32,000 data points, with e
 
 **Target Variable**
 - `income`: Income Class (<=50K, >50K)
+
+### Licensing, Author, Acknowledgements
+This project was completed as part of the [Udacity Intro to ML with Pytorch Program](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229).
+The initial files (template codes, data files) are available [here](https://github.com/udacity/cd0025-supervised-learning).
